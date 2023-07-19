@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./portfolio.scss"
 import PortfolioList from '../portfolioList/PortfolioList'
 import { useState } from 'react';
+import {
+  featuredPortfolio,
+  webPortfolio,
+  mobilePortfolio,
+  designPortfolio,
+  brandPortfolio
+} from "../../data"
 
 function Portfolio() {
   const [selected, setSelected] = useState("featured");
+  const [data, setData] = useState([]);
   const list = [
     {
       id: "featured",
@@ -27,6 +35,29 @@ function Portfolio() {
       title:"Branding",
     }
   ];
+
+  useEffect(() => {
+    switch(selected) {
+      case 'featured':
+        setData(featuredPortfolio)
+        break;
+      case 'web':
+        setData(webPortfolio);
+        break;
+      case 'mobile':
+        setData(mobilePortfolio);
+        break;
+      case 'design':
+        setData(designPortfolio);
+        break;
+      case 'brand':
+        setData(brandPortfolio);
+        break;
+      default:
+        setData(featuredPortfolio);
+    }
+  },[selected])
+
   return (
     <div className='portfolio' id='portfolio'>
       <h1>Portfolio</h1>
@@ -40,30 +71,13 @@ function Portfolio() {
        ))}
       </ul>
       <div className="container">
-        <div className="item">
-          <img src="assets/linkein.png" alt="linkedIn" />
-          <h3>LinkedIn clone</h3>
-        </div>
-        <div className="item">
-          <img src="assets/linkein.png" alt="linkedIn" />
-          <h3>LinkedIn clone</h3>
-        </div>
-        <div className="item">
-          <img src="assets/linkein.png" alt="linkedIn" />
-          <h3>LinkedIn clone</h3>
-        </div>
-        <div className="item">
-          <img src="assets/linkein.png" alt="linkedIn" />
-          <h3>LinkedIn clone</h3>
-        </div>
-        <div className="item">
-          <img src="assets/linkein.png" alt="linkedIn" />
-          <h3>LinkedIn clone</h3>
-        </div>
-        <div className="item">
-          <img src="assets/linkein.png" alt="linkedIn" />
-          <h3>LinkedIn clone</h3>
-        </div>
+        {data.map((d) => (
+          <div className="item">
+            <img src={d.img} alt="" />
+            <h3>{d.title}</h3>
+          </div>
+        ))}
+        
       </div>
     </div>
   )
