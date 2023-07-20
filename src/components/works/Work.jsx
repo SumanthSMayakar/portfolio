@@ -31,7 +31,7 @@ function Work() {
   ]
   const handleClick = (way) => {
     way === "left" ? setCurrentSlider(currentSlider > 0 ? currentSlider-1 : 2) : 
-    setCurrentSlider(currentSlider<data.length -1 ? currentSlider + 1 : 0);
+    setCurrentSlider(currentSlider<data.length-1 ? currentSlider + 1 : 0);
   }
   return (
     <div className='work' id='work'>
@@ -50,7 +50,7 @@ function Work() {
               </div>
             </div>
             <div className="right">
-              <img src="assets/linkein.png" alt="" />
+              <img src={d.img} alt="" />
             </div>
           </div>
         </div>

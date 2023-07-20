@@ -4,7 +4,6 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Work from './components/works/Work';
 import Contact from './components/contact/Contact';
-import Testimonials from './components/testimonials/Testimonials';
 import "./app.scss"
 import Menu from './components/menu/Menu';
 
@@ -18,7 +17,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Work/>
-        <Testimonials/>
         <Contact/>
     </div>
     </div>
