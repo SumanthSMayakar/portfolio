@@ -13,6 +13,21 @@ export const featuredPortfolio = [
         id:3,
         title:"E-commerce Web Design",
         img:"./assets/linkein.png"
+    },
+    {
+        id:4,
+        title:"Social Media App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:5,
+        title:"Airbnb App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:6,
+        title:"E-commerce Web Design",
+        img:"./assets/linkein.png"
     }
 ];
 export const webPortfolio = [
@@ -28,6 +43,21 @@ export const webPortfolio = [
     },
     {
         id:3,
+        title:"E-commerce Web Design",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:4,
+        title:"Social Media App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:5,
+        title:"Airbnb App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:6,
         title:"E-commerce Web Design",
         img:"./assets/linkein.png"
     }
@@ -47,6 +77,21 @@ export const mobilePortfolio = [
         id:3,
         title:"E-commerce Web Design",
         img:"./assets/linkein.png"
+    },
+    {
+        id:4,
+        title:"Social Media App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:5,
+        title:"Airbnb App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:6,
+        title:"E-commerce Web Design",
+        img:"./assets/linkein.png"
     }
 ];
 export const designPortfolio = [
@@ -62,6 +107,21 @@ export const designPortfolio = [
     },
     {
         id:3,
+        title:"E-commerce Web Design",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:4,
+        title:"Social Media App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:5,
+        title:"Airbnb App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:6,
         title:"E-commerce Web Design",
         img:"./assets/linkein.png"
     }
@@ -81,5 +141,20 @@ export const brandPortfolio = [
         id:3,
         title:"E-commerce Web Design",
         img:"assets/linkein.png"
+    },
+    {
+        id:4,
+        title:"Social Media App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:5,
+        title:"Airbnb App",
+        img:"./assets/linkein.png"
+    },
+    {
+        id:6,
+        title:"E-commerce Web Design",
+        img:"./assets/linkein.png"
     }
 ];
