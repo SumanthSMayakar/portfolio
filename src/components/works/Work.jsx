@@ -6,27 +6,27 @@ function Work() {
   const data = [
     {
       id: "1",
-      icon: "assets/mobile.png",
+      icon: "assets/globe.png",
       title: "Web Design",
       desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-      img:"assets/Mp.png"
+      "LinkedIn clone using HTML CSS and JavaScript. ",
+      img:"assets/linkein.png"
     },
     {
       id: "2",
       icon: "assets/globe.png",
-      title: "Mobile Application",
+      title: "Web Design",
       desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-      img:"assets/bp.png"
+      "MERN Full stack project Using Jwt,Admin & User Authentication, Login and Logout, Dashboard, cart, order and disbatch. ",
+      img:"assets/ecom.png"
     },
     {
       id: "3",
-      icon: "assets/writing.png",
-      title: "Branding",
+      icon: "assets/globe.png",
+      title: "Web Design",
       desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-      img:"assets/Mp.png"
+      " PigGame using HTML CSS and JavaScript with multiplayer functionality. ",
+      img:"assets/pigGame.png"
     }
   ]
   const handleClick = (way) => {

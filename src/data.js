@@ -1,160 +1,160 @@
 export const featuredPortfolio = [
     {
         id:1,
-        title:"Social Media App",
+        title:"LinkedIn clone App",
         img:"./assets/linkein.png"
     },
     {
         id:2,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
+        title:"ATS App",
+        img:"./assets/ATS.png"
     },
     {
         id:3,
         title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
+        img:"./assets/ecom.png"
     },
     {
         id:4,
-        title:"Social Media App",
-        img:"./assets/linkein.png"
+        title:"Music Player App",
+        img:"./assets/Mp.png"
     },
-    {
-        id:5,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:6,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
-    }
+    // {
+    //     id:5,
+    //     title:"Airbnb App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:6,
+    //     title:"E-commerce Web Design",
+    //     img:"./assets/ecom.png"
+    // }
 ];
 export const webPortfolio = [
     {
         id:1,
-        title:"Social Media App",
+        title:"Airbnb App",
         img:"./assets/Airbnb.png"
     },
     {
         id:2,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
+        title:"Be-practical",
+        img:"./assets/bp.png"
     },
     {
         id:3,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
+        title:"PigGame",
+        img:"./assets/pigGame.png"
     },
-    {
-        id:4,
-        title:"Social Media App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:5,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:6,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
-    }
+    // {
+    //     id:4,
+    //     title:"Social Media App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:5,
+    //     title:"Airbnb App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:6,
+    //     title:"E-commerce Web Design",
+    //     img:"./assets/linkein.png"
+    // }
 ];
 export const mobilePortfolio = [
     {
         id:1,
-        title:"Social Media App",
+        title:"LinkedIn clone ",
         img:"./assets/linkein.png"
     },
     {
         id:2,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
+        title:"Airbnb clone ",
+        img:"./assets/Airbnb.png"
     },
     {
         id:3,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
+        title:"E-commerce ",
+        img:"./assets/ecom.png"
     },
     {
         id:4,
-        title:"Social Media App",
-        img:"./assets/linkein.png"
+        title:"Be-practical",
+        img:"./assets/bp.png"
     },
     {
         id:5,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
+        title:"Music player",
+        img:"./assets/Mp.png"
     },
-    {
-        id:6,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
-    }
+    // {
+    //     id:6,
+    //     title:"E-commerce Web Design",
+    //     img:"./assets/linkein.png"
+    // }
 ];
 export const designPortfolio = [
     {
         id:1,
-        title:"Social Media App",
+        title:"Airbnb",
         img:"./assets/Airbnb.png"
     },
     {
         id:2,
-        title:"Airbnb App",
+        title:"Linked",
         img:"./assets/linkein.png"
     },
-    {
-        id:3,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:4,
-        title:"Social Media App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:5,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:6,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
-    }
+    // {
+    //     id:3,
+    //     title:"E-commerce Web Design",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:4,
+    //     title:"Social Media App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:5,
+    //     title:"Airbnb App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:6,
+    //     title:"E-commerce Web Design",
+    //     img:"./assets/linkein.png"
+    // }
 ];
 export const brandPortfolio = [
-    {
-        id:1,
-        title:"Social Media App",
-        img:"assets/linkein.png"
-    },
-    {
-        id:2,
-        title:"Airbnb App",
-        img:"assets/linkein.png"
-    },
-    {
-        id:3,
-        title:"E-commerce Web Design",
-        img:"assets/linkein.png"
-    },
-    {
-        id:4,
-        title:"Social Media App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:5,
-        title:"Airbnb App",
-        img:"./assets/linkein.png"
-    },
-    {
-        id:6,
-        title:"E-commerce Web Design",
-        img:"./assets/linkein.png"
-    }
+    // {
+    //     id:1,
+    //     title:"Social Media App",
+    //     img:"assets/linkein.png"
+    // },
+    // {
+    //     id:2,
+    //     title:"Airbnb App",
+    //     img:"assets/linkein.png"
+    // },
+    // {
+    //     id:3,
+    //     title:"E-commerce Web Design",
+    //     img:"assets/linkein.png"
+    // },
+    // {
+    //     id:4,
+    //     title:"Social Media App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:5,
+    //     title:"Airbnb App",
+    //     img:"./assets/linkein.png"
+    // },
+    // {
+    //     id:6,
+    //     title:"E-commerce Web Design",
+    //     img:"./assets/linkein.png"
+    // }
 ];
